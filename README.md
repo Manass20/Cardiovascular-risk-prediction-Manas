@@ -48,7 +48,7 @@ The dataset is from an ongoing cardiovascular study on residents of the town of 
 
 • 10-year risk of coronary heart disease CHD(binary: “1”, means “Yes”, “0” means “No”) - DV
 
-## 📋 Results:
+## 📜 Results:
 
 |Model Name|Recall|Accuracy|F1-score|
 
