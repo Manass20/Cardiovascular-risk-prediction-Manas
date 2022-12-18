@@ -1,8 +1,8 @@
-# Cardiovascular-risk-prediction - Manas Ranjan Behera
+# 📋 Cardiovascular-risk-prediction - Manas Ranjan Behera
 
 ![a hologram](https://user-images.githubusercontent.com/103633582/208310760-4b0abbc7-e253-4d57-8d0c-5364bfae80fc.jpeg)
 
-## Introduction -
+## 📋 Introduction -
 
 Heart disease is the major cause of morbidity and mortality globally: it accounts for more deaths annually than any other cause. According to the WHO, an estimated 17.9 million people died from heart disease in 2016, representing 31% of all global deaths. Over three quarters of these deaths took place in low- and middle-income countries.
 
@@ -12,11 +12,11 @@ Doctors and scientists alike have turned to machine learning (ML) techniques to 
 
 In this project, We will be giving you a walk through on the development of a screening tool for predicting whether a patient has a 10-year risk of developing coronary heart disease(CHD) using different Machine Learning techniques.
 
-# Data Summary -
+# 📋 Data Summary -
 
 The dataset is from an ongoing cardiovascular study on residents of the town of Framingham, Massachusetts. The classification goal is to predict whether the patient has a 10-year risk of future coronary heart disease (CHD). The dataset provides the patients’ information. It includes over 4,000 records and 15 attributes.Each attribute is a potential risk factor. There are both demographic, behavioral, and medical risk factors.
 
-## Data Description Demographic - 
+## 📋 Data Description Demographic - 
 
 • Sex: male or female("M" or "F") 
 
@@ -48,7 +48,7 @@ The dataset is from an ongoing cardiovascular study on residents of the town of 
 
 • 10-year risk of coronary heart disease CHD(binary: “1”, means “Yes”, “0” means “No”) - DV
 
-## Results:
+## 📋 Results:
 
 |Model Name|Recall|Accuracy|F1-score|
 
@@ -58,7 +58,7 @@ The dataset is from an ongoing cardiovascular study on residents of the town of 
 
 |SVM| 0.64|0.74|0.38|
 
-## Conclusion
+## 📋 Conclusion
 
 We have used Logistic Regression, KNN, SVC and XGBoost for modelling. Based on our observations, the Support vector classifier seems to have performed better with a recall of 74%. Based on the recall metrics, the model performance is really good, which was our objective from the very beginning i.e. we wanted to correctly predict all the positive cases of high risk CHD.
 
